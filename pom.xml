@@ -129,6 +129,7 @@
 	</dependencies>
 	
 	<build>
+		
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -187,6 +188,7 @@
 			                 -->
    </configuration>
 </plugin>
+			<pluginManagement>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-antrun-plugin</artifactId>
@@ -302,6 +304,7 @@
 					</execution>
 				</executions>
 			</plugin>
+			<pluginManagement>
 			<!--# Changes for Software Composition Analysis Scan using Snyk
 #By ASecurityGuru
 -->
