@@ -303,7 +303,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			<pluginManagement>
+		</pluginManagement>
 			<!--# Changes for Software Composition Analysis Scan using Snyk
 #By ASecurityGuru
 -->
